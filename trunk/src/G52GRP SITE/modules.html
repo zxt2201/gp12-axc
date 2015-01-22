@@ -1,0 +1,65 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head> 
+  <link rel="stylesheet" type="text/css" href="site.css" >
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+<title>Modules</title>
+
+<!--TREE STRUCTURE REFERENCED FROM http://www.javascripttoolbox.com/lib/mktree/index.php!-->
+
+<script type="text/javascript" src="mktree.js"></script>
+<link rel="stylesheet" href="mktree.css" type="text/css">
+
+</head>
+<div id = "wrap">
+  <body>
+  <div id = "header">
+  <img class = "floatleft" src="smallerlogo.png" alt="logo">
+  </div>
+  <div id = "rightcol">
+  <table border = "0" cellpadding="3">
+  <tr>
+	<td><button type="button" class= "logout">LOG OUT</button></br></br></br></td>
+	</tr>
+	<tr>
+	<td><button type="button" class= "button" onclick="editable()">CHANGE WEIGHTING</button></td>
+	</tr>
+	<tr>
+	<td><button type="button" class= "button" onclick="viewGroups()">VIEW GROUPS</button></td>
+	</tr>
+	<tr>
+	<td><button type="button" class= "button" onclick="fuckyou()">ADD MODULE</button></td>
+	</tr>
+	<tr>
+	<td><button type="button" class= "button">DELETE MODULE</button></td>
+	</tr>
+</table>	
+    </div>
+    
+    <!-- onclick="window.location='groups.html'" -->
+    <div id = "leftcolumn">
+  <table border = "0" cellpadding="0" id="tableid">
+  <tr>
+  <th align="left"> Module Name</th><th>Weighting</th>
+  </tr>
+  <tr name = "module" onclick="toggle(this)">
+  <td name="moduleName" width="420px" >G52GUI</td>
+    <td name = "initial" class = "completed" value="0.6">0.6</td></tr>
+    <tr name = "module" onclick="toggle(this)"><td >G52GRP</td>
+    <td name = "initial" class = "completed" value="0.3">0.3</td></tr>
+     <tr name = "module" onclick="toggle(this)"><td>G52SEM</td>
+    <td name ="initial" class = "completed" value="0.2">0.2</td></tr>
+</table>
+
+<script type="text/javascript">
+initiate();		// This must be placed immediately after the menu in order to format it properly.
+</script>
+	
+    </div> 
+   <div id = "footer">  
+  <a href="home.html"><button type="button" class= "button" >HOME</button></a>
+</div>
+</body>
+</div>
+</html>

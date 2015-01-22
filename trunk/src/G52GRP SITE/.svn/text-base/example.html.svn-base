@@ -1,0 +1,70 @@
+<html>
+<head>
+
+<!--http://forums.phpfreaks.com/topic/214528-collapsible-table-rows/!-->
+ 
+<script type="text/javascript">
+function expandCollapseTable(tableObj)
+{
+    var rowCount = tableObj.rows.length;
+    for(var row=1; row < rowCount; row++)
+    {
+        rowObj = tableObj.rows[row];
+        rowObj.style.display = (rowObj.style.display=='none') ? '' : 'none';
+    }
+    return;
+}
+</script>
+ 
+</head>
+<body>
+ 
+Click on the table to expand/collapse the data rows<br /><br />
+ 
+<table border="1" id="myTable" onclick="expandCollapseTable(this)">
+  <tr id="tr1">
+    <th>Header 1</th>
+    <th>Header 2</th>
+    <th>Header 3</th>
+  </tr>
+  <tr style="display:none;">
+    <td>Cell 1-1</td>
+    <td>Cell 2-1</td>
+    <td>Cell 3-1</td>
+  </tr>
+  <tr style="display:none;">
+    <td>Cell 1-2</td>
+    <td>Cell 2-2</td>
+    <td>Cell 3-2</td>
+  </tr>
+  <tr style="display:none;">
+    <td>Cell 1-3</td>
+    <td>Cell 2-3</td>
+    <td>Cell 3-3</td>
+  </tr>
+</table>
+<table border="1" id="myTable" onclick="expandCollapseTable(this)">
+  <tr id="tr1">
+    <th>Header 1</th>
+    <th>Header 2</th>
+    <th>Header 3</th>
+  </tr>
+  <tr style="display:none;">
+    <td>Cell 1-1</td>
+    <td>Cell 2-1</td>
+    <td>Cell 3-1</td>
+  </tr>
+  <tr style="display:none;">
+    <td>Cell 1-2</td>
+    <td>Cell 2-2</td>
+    <td>Cell 3-2</td>
+  </tr>
+  <tr style="display:none;">
+    <td>Cell 1-3</td>
+    <td>Cell 2-3</td>
+    <td>Cell 3-3</td>
+  </tr>
+</table>
+ 
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head> 
+  <link rel="stylesheet" type="text/css" href="site.css" >
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+<title>Home</title>
+
+<script type="text/javascript" src="mktree.js"></script>
+<link rel="stylesheet" href="mktree.css" type="text/css">
+<script>
+	function logOut() {
+	var r = confirm("Are you sure you wish to quit? Unsaved data will be lost");
+	if(r == true) 
+	{
+		self.location = ("main_login.php");
+	}
+	}
+</script>
+</head>
+<div id = "wrap">
+  <body>
+  <div id = "header">
+  <img class = "floatleft" src="smallerlogo.png" alt="logo">
+  </div>
+  <div id = "rightcol">
+  <table border = "0" cellpadding="3">
+	<tr>
+	<td><button type="button" class= "logout" onclick="logOut()">LOG OUT</button></td>
+	</tr>
+</table>
+</div>	
+    <div id = "midtable">
+    <table border="0" cellpadding="0">
+    <tr>
+    <td><a href="modules.php"><img src="modules.png"></a></td><td><a href="graphs.php"><img src = "graphs.png"></a></td>
+    </tr>
+    </table>
+    </div>
+    <!--</div>-->
+   <div id = "footer">  
+  </br>
+</div>
+</body>
+</div>
+</html>

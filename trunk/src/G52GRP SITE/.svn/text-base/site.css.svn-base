@@ -1,0 +1,138 @@
+body {
+font-family: Kalinga;
+}
+
+A:link {color: #000000; text-align: center;}
+A:hover {color:#0B0B61; font-weight: bold;}
+
+#wrap {
+padding: 0px;
+width: 820px;
+margin: auto;
+background-color:#F8F8F8 ;
+}
+
+#header {
+padding-left: 10px;
+word-spacing: 10px;
+text-align:center;
+clear:both;
+}
+
+#rightcol {
+padding-top: 25px;
+width:150px;
+float: right;
+padding-bottom: 25px;
+padding-right: 45px;
+}
+
+#leftcolumn {
+padding-top: 20px;
+padding-left: 45px;
+padding-bottom: 20px;
+width:580px;
+float: left;
+}
+
+#midtable {
+padding-left:220px;
+}
+
+.leftdisplay {
+text-decoration: none;
+display:block;
+}
+
+#formcol {
+padding-left: 0.5cm;
+padding-right: 0.5cm;
+width: 40em;
+float: left;
+display: block;
+}
+
+.button {
+height: 25px; 
+width: 150px;
+font-weight: bold;  
+color:#0B0B61; 
+}
+
+.button2 {
+height: 25px; 
+width: 80px;
+font-weight: bold;  
+color:#0B0B61; 
+}
+
+.buttonAssess {
+font-size:40px; 
+}
+
+.logout {
+height: 35px; 
+width: 150px; 
+font-weight: bold; 
+color:#0B0B61; 
+}
+
+.floatleft { 
+padding-top: 25px;
+padding-left: 20px;
+padding-right: 200px;
+float: left;
+clear: both;
+}
+
+.headfloat {
+padding-left: 20px;
+padding-right: 200px;
+float: left;
+}
+
+.floatright { 
+padding-top: 25px;
+padding-right: 40px;
+float: right;
+}
+
+.completed {
+width: 120px;
+text-align: center;
+}
+
+.mark
+{
+text-align:center;
+width:60px;
+}
+
+.module{
+text-align:center;
+width:100px;
+}
+
+fieldset
+{
+border-bottom-style: solid;
+border-top-style: solid;
+border: 2px #B8B8B8;
+width: 25em
+}
+
+#footer {
+border-top-style: solid;
+border-color:#A8A8A8;
+padding-left: 20px;
+padding-top: 10px;
+padding-bottom: 10px;
+clear: both;
+background-color:#E8E8E8;
+font-size:smaller;
+font-style:italic;
+}
+
+#graph {border: 1px solid #000; width: ###px; display: block; margin: 0; padding: 0}
+#graph ul li {border-bottom: 1px solid #000; width: ###px; height: ###px;}
+#graph ul li ul li {border: 0; width: auto;}

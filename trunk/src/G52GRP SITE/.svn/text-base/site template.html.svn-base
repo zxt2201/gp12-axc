@@ -1,0 +1,151 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head> 
+  <link rel="stylesheet" type="text/css" href="site.css" >
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+<title> Example GRP Page</title>
+
+<!--TREE STRUCTURE REFERENCED FROM http://www.javascripttoolbox.com/lib/mktree/index.php!-->
+
+<script type="text/javascript" src="mktree.js"></script>
+<link rel="stylesheet" href="mktree.css" type="text/css">
+
+</head>
+<div id = "wrap">
+  <body>
+  <div id = "header">
+  <img class = "floatleft"src="smallerlogo.png" alt="logo">
+  </div>
+  <div id = "rightcol">
+  <ul>
+  <table border = "0" cellpadding="3">
+  <tr>
+	<td><button type="button" class= "logout">LOG OUT</button></br></br></br></td>
+	</tr>
+	<tr>
+	<td><button type="button" class= "button">WEIGHTING</button></td>
+	</tr>
+	<tr>
+	<td><button type="button" class= "button">VIEW GROUPS</button></td>
+	</tr>
+	<tr>
+	<td><button type="button" class= "button">ADD MODULE</button></td>
+	</tr>
+	<tr>
+	<td><button type="button" class= "button">DELETE MODULE</button></td>
+	</tr>
+</table>	
+</ul>
+    </div>
+    <div id = "leftcolumn">
+    
+  <table border = "0" cellpadding="0">
+  <tr>
+  <th>Group Name</th><th>Completed</th><th>Mark</th><th>Module</th>
+  </tr>
+  <tr>
+  <td class = "groupName">
+  <ul class= "mktree">
+  <li>
+    GP12-NZA
+    <ul>
+      <li>
+        <a href="http://www.autisticcuckoo.net">Tommy Olsen</a>
+      </li>
+      <li>
+        <a href="http://www.zeldman.com">Jeffrey Zeldman</a>
+      </li>
+      <li>
+        <a href="http://www.meyerweb.com">Eric Meyer</a>
+      </li>
+    </ul>
+    </li>
+    </ul>
+  </td>
+<td name= "completed" class = "completed" ></td>
+<td name = "mark" class = "mark" > 78 </td>
+<td name = "module" class = "module" > G52GRP </td>
+</tr>
+  <tr>
+  <td class = "groupName">
+  <ul class= "mktree">
+  <li>
+    GP12-JAA
+    <ul>
+      <li>
+        <a href="http://www.autisticcuckoo.net">Tommy Olsen</a>
+      </li>
+      <li>
+        <a href="http://www.zeldman.com">Jeffrey Zeldman</a>
+      </li>
+      <li>
+        <a href="http://www.meyerweb.com">Eric Meyer</a>
+      </li>
+    </ul>
+    </li>
+    </ul>
+  </td>
+<td name= "completed" class = "completed" ></td>
+<td name = "mark" class = "mark" > 78 </td>
+<td name = "module" class = "module" > G52GRP </td>
+</tr>
+  <tr>
+  <td class = "groupName">
+  <ul class= "mktree">
+  <li>
+    GP12-JQB
+    <ul>
+      <li>
+        <a href="http://www.autisticcuckoo.net">Tommy Olsen</a>
+      </li>
+      <li>
+        <a href="http://www.zeldman.com">Jeffrey Zeldman</a>
+      </li>
+      <li>
+        <a href="http://www.meyerweb.com">Eric Meyer</a>
+      </li>
+    </ul>
+    </li>
+    </ul>
+  </td>
+<td name= "completed" class = "completed" ></td>
+<td name = "mark" class = "mark" > 78 </td>
+<td name = "module" class = "module" > G52GRP </td>
+</tr>
+  <tr>
+  <td class = "groupName">
+  <ul class= "mktree">
+  <li>
+    GP12-AXC
+    <ul>
+      <li>
+        <a href="http://www.autisticcuckoo.net">Tommy Olsen</a>
+      </li>
+      <li>
+        <a href="http://www.zeldman.com">Jeffrey Zeldman</a>
+      </li>
+      <li>
+        <a href="http://www.meyerweb.com">Eric Meyer</a>
+      </li>
+    </ul>
+    </li>
+    </ul>
+  </td>
+<td name= "completed" class = "completed" ></td>
+<td name = "mark" class = "mark" > 78 </td>
+<td name = "module" class = "module" > G52GRP </td>
+</tr>
+</table>
+
+<script type="text/javascript">
+initiate();		// This must be placed immediately after the menu in order to format it properly.
+</script>
+	
+    </div> 
+   <div id = "footer">  
+  <button type="button" class= "button" >PREVIOUS</button>
+</div>
+</body>
+</div>
+</html>

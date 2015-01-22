@@ -1,0 +1,169 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head> 
+  <link rel="stylesheet" type="text/css" href="site.css" >
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+<title>Groups</title>
+
+<!--TREE STRUCTURE REFERENCED FROM http://www.javascripttoolbox.com/lib/mktree/index.php!-->
+
+<script type="text/javascript" src="mktree.js"></script>
+<link rel="stylesheet" href="mktree.css" type="text/css">
+
+<script>
+
+onload=function() {
+var arr = new Array(); 
+arr = document.getElementsByName("completed"); 
+for (var i = 0; i < arr.length; i++){
+var value = document.getElementsByName("completed")[i].innerHTML;
+if (value == 'done') {
+document.getElementsByName("completed")[i].innerHTML="<img src='checked.png'>";
+} else {
+document.getElementsByName("completed")[i].innerHTML="<img src='unchecked.png'>";
+}
+}
+}
+
+</script>
+
+</head>
+<div id = "wrap">
+  <body>
+  <div id = "header">
+  <img class = "floatleft"src="smallerlogo.png" alt="logo">
+  </div>
+  <div id = "rightcol">
+  <table border = "0" cellpadding="3">
+	<tr>
+	<td><button type="button" class= "logout">LOG OUT</button></br></br></br></td>
+	</tr>
+	<tr>
+	<td><a href="home.html"><button type="button" class= "button">HOME</button></a></td>
+	</tr>
+	<tr>
+	<td><button type="button" class= "button">UNCOMPLETED</button></td>
+	</tr>
+	<tr>
+	<td><button type="button" class= "button">ADD STUDENTS</button></td>
+	</tr>
+	<tr>
+	<td><button type="button" class= "button">ADD GROUP</button></td>
+	</tr>
+	<tr>
+	<td><button type="button" class= "button" onclick="editable()">ADD GROUP MARK</button></td>
+	</tr>
+</table>	
+    </div>
+    <div id = "leftcolumn">
+    
+  <table border = "0" cellpadding="0">
+  <tr>
+  <th>Group Name</th><th>Completed</th><th>Mark</th><th>Module</th>
+  </tr>
+  <tr>
+  <td width="250px">
+  <ul class= "mktree">
+  <li>
+    GP12-NZA
+    <ul>
+      <li>
+        Barry King
+      </li>
+      <li>
+        Luke Davies
+      </li>
+      <li>
+        Graham Lynch
+      </li>
+    </ul>
+    </li>
+    </ul>
+  </td>
+<td name= "completed" class = "completed" ></td>
+<td name = "initial" class = "mark" >78</td>
+<td name = "module" class = "module" > G52GRP </td>
+</tr>
+  <tr>
+  <td class = "groupName">
+  <ul class= "mktree">
+  <li>
+    GP12-JAA
+    <ul>
+      <li>
+        Fred Holmes
+      </li>
+      <li>
+        Bill Brown
+      </li>
+      <li>
+        Dan Gillingham
+      </li>
+    </ul>
+    </li>
+    </ul>
+  </td>
+<td name= "completed" class = "completed" ></td>
+<td name = "initial" class = "mark" >78</td>
+<td name = "module" class = "module" > G52GRP </td>
+</tr>
+  <tr>
+  <td class = "groupName">
+  <ul class= "mktree">
+  <li>
+    GP12-JQB
+    <ul>
+      <li>
+        Tommy Olsen
+      </li>
+      <li>
+        Jeffrey Zeldman
+      </li>
+      <li>
+        Eric Meyer
+      </li>
+    </ul>
+    </li>    
+  </td>
+<td name= "completed" class = "completed" ></td>
+<td name = "initial" class = "mark" >78</td>
+<td name = "module" class = "module" > G52GRP </td>
+</ul>
+</tr>
+  <tr>
+  <td class = "groupName">
+  <ul class= "mktree">
+  <li>
+    GP12-AXC
+    <ul>
+      <li>
+        Sam Olsen
+      </li>
+      <li>
+        Jeffrey Thompson
+      </li>
+      <li>
+        Ben James
+      </li>
+    </ul>
+    </li>
+    </ul>
+  </td>
+<td name= "completed" class = "completed">done</td>
+<td name = "initial" class = "mark" >78</td>
+<td name = "module" class = "module" > G52GRP </td>
+</tr>
+</table>
+
+<script type="text/javascript">
+initiate();		// This must be placed immediately after the menu in order to format it properly.
+</script>
+	
+    </div> 
+   <div id = "footer">  
+  <a href="modules.html"><button type="button" class= "button" >PREVIOUS</button></a>
+</div>
+</body>
+</div>
+</html>

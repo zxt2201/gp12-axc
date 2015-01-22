@@ -1,0 +1,40 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head> 
+  <link rel="stylesheet" type="text/css" href="site.css" >
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+  <title> Home </title>
+  
+  
+<script type="text/javascript" src="mktree.js"></script>
+<link rel="stylesheet" href="mktree.css" type="text/css">
+
+</head>
+<div id = "wrap">
+  <body>
+  <div id = "header">
+  <img class = "floatleft" src="smallerlogo.png" alt="logo">
+  </div>
+  <div id = "rightcol">
+  <table border = "0" cellpadding="3">
+	<tr>
+	<td><button type="button" class= "logout">LOG OUT</button></td>
+	</tr>
+</table>
+</div>	
+
+ <div id = "midtable">
+    <table border="0" cellpadding="0">
+    <tr>
+    <td><a href="Assessment.html"><img src="Assessment.jpg"></a></td><td><img src = "Results.jpg"></td>
+    </tr>
+    </table>
+    </div>
+
+	 <div id = "footer">  
+  </br>
+</div>
+</body>
+</div>
+</html>

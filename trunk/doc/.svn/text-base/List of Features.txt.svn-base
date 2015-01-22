@@ -1,0 +1,37 @@
+List of Features 
+
+.Seperate Convenor/Student sign-ins and user interfaces.
+The peer assesment website should have a seperate log in pages for the module convenors and for the students.This makes it 
+easier for users of the website to access the part of the web site that is inteded for them. The student log in will take the
+students to the student part of the website where they can fill out peer assesments for their choosen modules. The module convenor 
+log in will take the convenors to the module convenor part of the web site where they can hand out marks and see selected peer assesments
+for different modules. They can also see the graphs of results for the different modules.  
+
+
+.Easy to follow process, with colour-coded progress bar changing with entries.
+This allows students to see how their peer assesment is progressing. The more entries the user makes the progress bar changes colour 
+showing the progress of the assesment.
+
+.Simple to use group creation process, easy addition of students via CSV import.
+This feature allows the module convenors to create different groups for several different modules this allows the convenor to control the groups 
+selected for the modules. Also the convenor will be able to add students to the different groups easily using CSV import.
+
+.Ability to add group marks, which in combination with individual peer assessments, generates a set of individual marks.
+This feature allows the module convenor to add group marks to the selected group which combined with the individual peer assesments generates individual marks
+for each memeber of that group using an alogorithm to work out their marks.
+
+.Ability to alter a students assessments at a later date, if process not taken seriously.
+This feature allows the module convenor to alter a peer assesment mark done by a student if they feel it has been done unfairly. This is if the convenor feels
+the student deserved or better or even a worse mark then they orginally recieved.
+
+.Graphs available of average marks for a module, for both groups and students individually.
+This feature allows the students and the module govenors to see an automatically generated graph for average marks for a selected module. The graphs will be 
+for both groups and for individual student marks. Providing the marks in a graph gives easy viewing of the average marks.
+
+.Student details stored in a database
+all the student details are stored in a database allowing easy access to their details and allowing an easy way to import their details using CSV import.
+
+.User friendly GUI's
+The design of the GUI's should be easy and not complex for easy navigation around the site allowing students and module govenors to easily complete their
+tasks, an easy layout means less chance of a user error.
+
